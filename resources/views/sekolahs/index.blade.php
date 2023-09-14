@@ -1,11 +1,18 @@
 @extends('home')
 @section('student')
 
+
 <h1>Sekolah</h1>
+
+<a href="{{ route('sekolahs.tambah') }}" class="btn btn-primary">tambah data</a>
+
 <div class="card mt-3">
     <div class="table-responsive">
       <table class="table table-vcenter card-table">
-        <thead>
+
+
+
+      <thead>
           <tr>
             <th>Nama Sekolah</th>
             <th>Alamat</th>
